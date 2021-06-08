@@ -1,0 +1,8 @@
+.cartDiv{
+    display: flex;
+}
+.cartDiv img {
+    padding: 5px; 
+    width: 40px;
+    height: auto;
+}
