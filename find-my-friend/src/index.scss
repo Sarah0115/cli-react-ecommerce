@@ -1,0 +1,23 @@
+@import './components/NavBar/NavBar.scss';
+
+
+$purple: #8e59cf; 
+$gold: #c1a06f;
+$salmon: #f19a98;
+$aqua: #78d0cb;
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1, h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}

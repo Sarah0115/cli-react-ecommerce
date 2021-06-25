@@ -1,0 +1,46 @@
+@import '../../index.scss';
+.containerItem{
+    display: grid;
+    grid-template-columns: (1fr 1fr 1fr 1fr);
+    grid-gap: 20px;
+    margin-top: 3rem;
+    .producto{
+        h4{
+            display: block;
+            width: 100%;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .autor{
+            margin-top: 1rem;
+            font-style: italic;
+            span{
+                font-weight: 600;
+                font-style: normal;
+            }
+        }
+        p{
+            line-height: 1; 
+            margin-bottom: 0.5rem;
+        }
+        img{
+            width: 50%;
+        }
+        .counter{
+            input{
+                width: 50px;
+                text-align: center;
+                border: none;
+            }
+            button{
+                border: none;
+                color: $purple;
+            }
+        }
+    }
+}
