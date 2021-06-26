@@ -27,8 +27,6 @@ const Item = ({listado}) => {
   })
  
   return (
-   
-
     <div className="containerItem">
     
     {Productos.map((element, i) =>{
